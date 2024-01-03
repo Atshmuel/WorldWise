@@ -1,40 +1,28 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "cityName": "Negev",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": 1704297390560,
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "31.149951272144676",
+        "lng": "35.06835937500001"
       },
-      "id": 17806751
+      "id": 1704297392220
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Ramat Negev Regional Council",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": 1704297419069,
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "30.566194535529476",
+        "lng": "34.89257812500001"
       },
-      "id": 98443197
+      "id": 1704297420759
     }
   ]
 }

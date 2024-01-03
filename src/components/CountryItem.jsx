@@ -1,5 +1,5 @@
 import styles from "./CountryItem.module.css";
-import getFlag from "../assets/getFlag";
+import { getFlag } from "../assets/getFlag";
 function CountryItem({ country }) {
   return (
     <li className={styles.countryItem}>
