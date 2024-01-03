@@ -1,28 +1,48 @@
 {
+  "users": [
+    {
+      "name": "Jack",
+      "email": "jack@example.com",
+      "password": "qwerty",
+      "avatar": "https://i.pravatar.cc/100?u=zz"
+    }
+  ],
   "cities": [
     {
-      "cityName": "Negev",
-      "country": "Israel",
-      "emoji": "🇮🇱",
-      "date": 1704297390560,
+      "cityName": "Amman",
+      "country": "Jordan",
+      "emoji": "🇯🇴",
+      "date": 1704305758159,
       "notes": "",
       "position": {
-        "lat": "31.149951272144676",
-        "lng": "35.06835937500001"
+        "lat": "31.44741029142872",
+        "lng": "36.29882812500001"
       },
-      "id": 1704297392220
+      "id": 1704305758947
     },
     {
-      "cityName": "Ramat Negev Regional Council",
-      "country": "Israel",
-      "emoji": "🇮🇱",
-      "date": 1704297419069,
+      "cityName": "Al Bad‘",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": 1704305819930,
       "notes": "",
       "position": {
-        "lat": "30.566194535529476",
-        "lng": "34.89257812500001"
+        "lat": "28.815198263947067",
+        "lng": "34.999008178710945"
       },
-      "id": 1704297420759
+      "id": 1704305821865
+    },
+    {
+      "cityName": "Dead Sea",
+      "country": "Palestine, State of",
+      "emoji": "🇵🇸",
+      "date": 1704305993495,
+      "notes": "",
+      "position": {
+        "lat": "31.615965936476076",
+        "lng": "35.48583984375001"
+      },
+      "id": 1704305994411
     }
   ]
 }
