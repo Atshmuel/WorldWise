@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "name": "Jack",
+      "email": "jack@example.com",
+      "password": "qwerty",
+      "avatar": "https://i.pravatar.cc/100?u=zz"
+    }
+  ],
+  "cities": [
+    {
+      "cityName": "Amman",
+      "country": "Jordan",
+      "emoji": "🇯🇴",
+      "date": 1704305758159,
+      "notes": "",
+      "position": {
+        "lat": "31.44741029142872",
+        "lng": "36.29882812500001"
+      },
+      "id": 1704305758947
+    },
+    {
+      "cityName": "Al Bad‘",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": 1704305819930,
+      "notes": "",
+      "position": {
+        "lat": "28.815198263947067",
+        "lng": "34.999008178710945"
+      },
+      "id": 1704305821865
+    },
+    {
+      "cityName": "Dead Sea",
+      "country": "Palestine, State of",
+      "emoji": "🇵🇸",
+      "date": 1704305993495,
+      "notes": "",
+      "position": {
+        "lat": "31.615965936476076",
+        "lng": "35.48583984375001"
+      },
+      "id": 1704305994411
+    },
+    {
+      "cityName": "Qasima",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": 1705076965139,
+      "notes": "",
+      "position": {
+        "lat": "30.658377274741856",
+        "lng": "34.29453959620237"
+      },
+      "id": 1705076966850
+    },
+    {
+      "cityName": "Negev",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": 1705076968801,
+      "notes": "",
+      "position": {
+        "lat": "31.074662549740417",
+        "lng": "34.95425428642769"
+      },
+      "id": 1705076970056
+    },
+    {
+      "cityName": "HaMakhtesh HaGadol",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": 1705076987900,
+      "notes": "",
+      "position": {
+        "lat": "30.922610716898323",
+        "lng": "34.966082184180316"
+      },
+      "id": 1705076989142
+    },
+    {
+      "cityName": "Yeroẖam",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": 1705077037572,
+      "notes": "",
+      "position": {
+        "lat": "30.942588281702758",
+        "lng": "34.95212820251821"
+      },
+      "id": 1705077040289
+    }
+  ]
+}

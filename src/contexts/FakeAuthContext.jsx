@@ -9,6 +9,13 @@ const initialState = {
   isLoadingUser: false,
 };
 
+const fakeUser = {
+  name: "Jack",
+  email: "jack@example.com",
+  password: "qwerty",
+  avatar: "https://i.pravatar.cc/100?u=zz",
+};
+
 function reducer(state, action) {
   switch (action.type) {
     case "loading":
@@ -31,12 +38,14 @@ function AuthProvider({ children }) {
   async function login(email, password) {
     dispatch({ type: "loading" });
     try {
-      const res = await fetch(`${BASE_URL}/users`);
-      const data = await res.json();
-      const user = data.at(0);
-      if (email === user.email && password === user.password)
-        dispatch({ type: "login", payload: user });
-    } catch (error) {}
+      // const res = await fetch(`${BASE_URL}/users`);
+      // const data = await res.json();
+      // const user = data.at(0);
+      if (email === fakeUser.email && password === fakeUser.password)
+        dispatch({ type: "login", payload: fakeUser });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   function logout() {
