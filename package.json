@@ -11,19 +11,21 @@
     "server": "json-server --watch data/cities.json --port 8000 --delay 500"
   },
   "dependencies": {
+    "eslint-config-react-app": "^7.0.1",
     "json-server": "^0.17.4",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-datepicker": "^4.25.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
-    "react-router-dom": "^6.21.1"
+    "react-router-dom": "^6.21.1",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
